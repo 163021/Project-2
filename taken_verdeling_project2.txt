@@ -7,3 +7,15 @@ Scenario's verzinnen: Marai
 Website:
 PHP: Casper, Jurre
 
+Takenverdeling sprint 15-06:
+
+Martijn: Git Master
+Marai: Voorzitter
+Casper: Notulist
+Jurre: Scrum Master
+
+Visie na sprint 15-06:
+een zichtbare beslisboom, met een tijdslimiet voor de keuzes. Subdoel: Dinsdagmiddag word agenda doorgemaild aan Rick
+
+User stories: 
+Ik wil als cliënt een scenario zien waar ik twee keuzes bij krijg zodat ik weerbaarder kan worden
