@@ -1,0 +1,51 @@
+Daily standup 09-06:
+Marai:
+Wat heb ik gister gedaan?: 
+Gister heb ik en mijn groepje een interview met rick gehad, vragen gesteld en informatie opgeschreven. We hebben nu een idee van wat we moeten maken en een sprint doel opgesteld voor vorige week woensdag.
+
+Wat ga ik vandaag doen?:
+Vandaag ga ik werken aan de scenario's/web pagina waar de scenario's op komen te staan. Ik ga ook nog proberen een raam agenda te maken en die te sturen naar rick.
+
+Zijn er zaken die mijn voortgang tegenhouden? Of voor zie ik al problemen die nog gaan optreden?:
+Ik weet niet wat een raam agenda is en als ik het opzoek kan ik ook niet makkelijk iets vinden. Dit moet ik even na vragen aan mijn docent.
+
+
+
+
+Casper:
+Wat heb ik gister gedaan?:
+Interview gehad met rick.
+
+Wat ga ik vandaag doen?:
+Scenarios op web pagina zetten.
+
+Zijn er zaken die mijn voortgang tegenhouden? Of voor zie ik al problemen die nog gaan optreden?:
+Nee.
+
+
+
+Jurre:
+Wat heb ik gister gedaan?:
+Interview/Plan van aanpak bedacht van de basis(Demo) van het product
+
+Wat ga ik vandaag doen?:
+Scenario bedenken en onderzoeken of de website versie ook goed in een VR headset kan draaien.
+
+Zijn er zaken die mijn voortgang tegenhouden? Of voor zie ik al problemen die nog gaan optreden?:
+Op dit moment niet.
+
+
+
+Martijn:
+Wat heb ik gister gedaan?:
+Interview/notulen gemaakt en verstuurd.
+
+Wat ga ik vandaag doen?:
+scene.php stylen
+
+Zijn er zaken die mijn voortgang tegenhouden? Of voor zie ik al problemen die nog gaan optreden?:
+nog niet
+
+
+
+
