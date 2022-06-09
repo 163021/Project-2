@@ -25,7 +25,7 @@
     </h1>
     <?php
     session_start();
-    if (!isset($_POST['optie1']) && !isset($_POST['optie2'])) {
+    if (!isset($_POST['optie1'])) {
         ?>
         <form method="post">
             <label for="optie1">
