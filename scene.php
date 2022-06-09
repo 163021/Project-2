@@ -25,7 +25,7 @@
     </h1>
     <?php
     session_start();
-    if (!isset($_POST['optie1'])) {
+    if (!isset($_POST['optie1']) && !isset($_POST['optie2'])) {
         ?>
         <form method="post">
             <label for="optie1">
@@ -42,7 +42,7 @@
                 <br><br><br>
                 <input type="submit" value="Selecteren" id="btnSubmit">
         </form>
-        <br><br><br>
+        <br><br><br>    
         <form method="post" action="index.html">
             <input type="submit" value="Terug gaan">
 
@@ -67,7 +67,7 @@
             <form method="post" action="#">
             <input type="submit" value="Opnieuw">
 
-            </form>
+        </form>
             <?php
         }
         ?>
