@@ -42,6 +42,11 @@
                 <br><br><br>
                 <input type="submit" value="Selecteren" id="btnSubmit">
         </form>
+        <br><br><br>
+        <form method="post" action="index.html">
+            <input type="submit" value="Terug gaan">
+
+        </form>
         <?php
     }
     if (isset($_POST['optie1'])) {
@@ -50,27 +55,26 @@
             ?>
             <h3><strong>Goed Gedaan. Je koos er voor om met de man te praten.
                     Hij heeft naar je geluisterd.</strong></h3>
-                    <form method="post" action="scene2.php">
-                        <input type="submit" value="Volgende Scenario" 
-                        id="btnSubmit2">
-                    </form>
+            <form method="post" action="scene2.php">
+                <input type="submit" value="Volgende Scenario" id="btnSubmit2">
+            </form>
             <?php
         } else if ($_SESSION['optie1'] == "onveilig") {
             ?>
             <h3><strong>Dit gaat heel fout. De man heeft zijn machette
-                 getrokken. Hij kapt je neer. :(</strong></h3>
-                 <h3><strong>Probeer opnieuw.</strong></h3>
+                    getrokken. Hij kapt je neer. :(</strong></h3>
+            <h3><strong>Probeer opnieuw.</strong></h3>
+            <form method="post" action="#">
+            <input type="submit" value="Opnieuw">
+
+            </form>
             <?php
         }
-        ?>  
+        ?>
         <?php
     }
     ?>
     <br><br><br>
-    <form method="post" action="#">
-        <input type="submit" value="Terug gaan">
-
-    </form>
 </body>
 
 </html>
