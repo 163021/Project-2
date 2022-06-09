@@ -13,15 +13,67 @@
         <!-- vraagnummer dynamisch bepaald: js/php -->
     </h1>
     <?php
-
+    if (!isset($_POST['submit'])) {
+        ?>
+        <form method="post" action="" value="1ste">
+            <p></p>
+            <input type="radio" name="optie1" value="optie1">Optie 2: </input>
+            <input type="radio" name="optie2" value="optie2">Optie 2: </input>
+            <input type="submit" name="submit" value="Volgende"></input>
+        </form>
+        <?php
+    }
     ?>
-    <form method="post" action="">
-    <p>1: Je zit in de auto en bent aan het rijden. Je rijdt op de linker baan en iemand voor je snijd je af om ook naar links te gaan.</p>
-
-    <input type="radio" name="optie1" value="optie1">Optie 2: Je wordt (boos) en toeterd naar diegene voor je.</input>
-    <input type="radio" name="optie2" value="optie2">Optie 2: Je wordt (boos) en toeterd naar diegene voor je.</input>
-    // als alle drie scenario's afgelopen zijn, dan is het einde van de test
     <?php
+    if (isset($_POST['submit'])) {
+        ?>
+    <form method="post" action="" value="2de">
+        <input type="radio" name="optie1" value="optie1">Optie 2: </input>
+        <input type="radio" name="optie2" value="optie2">Optie 2: </input>
+        <input type="submit" name="submit2" value="Volgende"></input>
+    </form>
+        <?php
+    }
+    ?>
+    <?php
+    if (!isset($_POST['submit2'])) {
+        ?>
+    <form method="post" action="" value="2de">
+        <input type="radio" name="optie1" value="optie1">Optie 2: </input>
+        <input type="radio" name="optie2" value="optie2">Optie 2: </input>
+        <input type="submit" name="submit2" value="Volgende"></input>
+    </form>
+        <?php
+    }
+    ?>
+    <?php
+    if (isset($_POST['submit2'])) {
+        ?>
+        <form method="post" action="" value="3de">
+        <input type="radio" name="optie1" value="optie1">Optie 2: </input>
+        <input type="radio" name="optie2" value="optie2">Optie 2: </input>
+        <input type="submit" name="submit3" value="Volgende"></input>
+    </form>
+        <?php
+    }
+    ?>
+    <?php
+    if (!isset($_POST['submit3'])) {
+        ?>
+        <form method="post" action="" value="3de">
+        <input type="radio" name="optie1" value="optie1">Optie 2: </input>
+        <input type="radio" name="optie2" value="optie2">Optie 2: </input>
+        <input type="submit" name="submit3" value="Volgende"></input>
+    </form>
+        <?php
+    }
+    ?>
+    <?php
+    if (isset($_POST['submit3'])) {
+        ?>
+        <p><strong>Je bent klaar met deze vragenlijst!</strong></p>
+        <?php
+    }
     ?>
     <!-- de gekozen opties worden getoond -->
 </body>
