@@ -28,8 +28,8 @@ n.v.t.
 
 Martijn:
 Wat heb ik vorige sprint gedaan en is dit gelukt:
-Nog niet aanwezig per 09:51.
+Ik heb een database gemaakt voor de scenario's en dit is gelukt.
 Wat ga ik aankomende sprint doen:
-n.v.t.
+Verder de database uitwerken.
 Zijn er dingen die mijn progressie in de weg kunnen zitten:
-n.v.t.
+Nee.
