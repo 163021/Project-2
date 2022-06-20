@@ -1,0 +1,35 @@
+Daily standup 09:46 - 20-06-2022:
+Scrum master: Marai
+Notulist: Casper
+
+Jurre:
+Wat heb ik vorige sprint gedaan en is dit gelukt:
+Ik ben bezig geweest met een demo video in unity (Tool voor VR) te verwerken en dit is nog niet gelukt).
+Wat ga ik aankomende sprint doen:
+Het afmaken van vorige sprintdoel dus het verwerken van een demo video in unity.
+Zijn er dingen die mijn progressie in de weg kunnen zitten:
+Op dit moment nog niet.
+
+Casper:
+Wat heb ik vorige sprint gedaan en is dit gelukt:
+Gewerkt aan de scenario's en dit is nog niet af.
+Wat ga ik aankomende sprint doen:
+Verder met de scenario's.
+Zijn er dingen die mijn progressie in de weg kunnen zitten:
+De database is nog niet volledig af.
+
+Marai:
+Wat heb ik vorige sprint gedaan en is dit gelukt:
+Niet aanwezig
+Wat ga ik aankomende sprint doen:
+n.v.t.
+Zijn er dingen die mijn progressie in de weg kunnen zitten:
+n.v.t.
+
+Martijn:
+Wat heb ik vorige sprint gedaan en is dit gelukt:
+Nog niet aanwezig per 09:51.
+Wat ga ik aankomende sprint doen:
+n.v.t.
+Zijn er dingen die mijn progressie in de weg kunnen zitten:
+n.v.t.
