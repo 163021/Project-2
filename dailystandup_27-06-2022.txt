@@ -1,0 +1,39 @@
+Daily standup 09:54 - 27-06-2022:
+Scrummaster: Martijn
+Notulist: Jurre
+
+
+Casper:
+Wat heb ik vorige sprint  gedaan (Behaald?):
+Gewerkt aan de scenario's en ze verbeter na feedback van de PO en dit is gelukt.
+
+Wat is mijn doel voor aankomende sprint:
+Verbeteren van de scenario's op de website.
+Zijn er dingen die mijn progressie in de weg kunnen zitten:
+Op dit moment niet.
+
+
+Jurre:
+Wat heb ik vorige sprint  gedaan (Behaald?):
+Het werkend maken van video met buttons in unity voor VR en dit is gelukt
+Wat is mijn doel voor aankomende sprint:
+Het verbeteren van de demo voor de review met de PO. 
+Zijn er dingen die mijn progressie in de weg kunnen zitten:
+Op dit moment niet.
+
+Marai:
+Wat heb ik vorige sprint  gedaan (Behaald?):
+Scenario's bedenken en ze verbeteren met feedback van de PO.
+Wat is mijn doel voor aankomende sprint:
+Video's bij mijn scenario's zoeken.
+Zijn er dingen die mijn progressie in de weg kunnen zitten:
+Nee.
+
+
+Martijn:
+Wat heb ik vorige sprint  gedaan (Behaald?):
+De database werkend gemaakt, dit is gelukt.
+Wat is mijn doel voor aankomende sprint:
+Het scrumboard notuleren.
+Zijn er dingen die mijn progressie in de weg kunnen zitten:
+Nee.
