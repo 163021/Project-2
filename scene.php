@@ -12,8 +12,11 @@
  * @link     http://localhost/
  */
 
-require 'tailwind.php';
 //TIJDELIJKE VERSIE
+?>
+
+<?php
+require 'tailwind.php'
 ?>
 
 <head>
@@ -42,7 +45,7 @@ require 'tailwind.php';
                         een jongeren op straat en hij heeft een mes
                         op zijn heup en dreigt je er mee te steken.</strong></h3>
                 <div class="flex justify-center">
-                    <select id="optie1" name="optie1">
+                    <select id="optie1" class="border-solid border-2 border-black" name="optie1">
                         <option value="veilig">Je probeert de situatie
                             te deëscaleren</option>
                         <option value="onveilig">Je wilt het gevecht aan en
@@ -50,13 +53,13 @@ require 'tailwind.php';
                     </select>
                 </div>
                 <div class="flex justify-center mt-10">
-                    <input type="submit" class="border-b-2 border-black hover:bg-green-500" value="Selecteren" id="btnSubmit">
+                    <input type="submit" class="border-solid border-2 border-black bg-white hover:bg-green-500" value="Selecteren" id="btnSubmit">
                 </div>
         </form>
         <br><br><br>
         <div class="flex justify-center underline">
             <form method="post" action="index.html">
-                <input type="submit" value="Terug gaan">
+                <input type="submit" class="border-solid border-2 border-black bg-white hover:bg-yellow-500" value="Terug gaan">
             </form>
         </div>
         <?php
@@ -65,11 +68,15 @@ require 'tailwind.php';
         $_SESSION['optie1'] = $_POST['optie1'];
         if ($_SESSION['optie1'] == "veilig") {
             ?>
-            <h3><strong>Goed Gedaan. Je koos er voor om met de man te praten.
-                    Hij heeft naar je geluisterd.</strong></h3>
+            <div class="text-xl flex justify-center">
+            <h3>Goed Gedaan. Je koos er voor om met de man te praten.
+                    Hij heeft naar je geluisterd.</h3>
+        </div>
+        <div class="mt-4 flex justify-center">
             <form method="post" action="scene2.php">
-                <input type="submit" value="Volgende Scenario" id="btnSubmit2">
+                <input type="submit" class="border-solid border-2 border-black bg-white hover:bg-green-500bg-white hover:bg-green-500" value="Volgende Scenario" id="btnSubmit2">
             </form>
+            </div>
             <?php
         } else if ($_SESSION['optie1'] == "onveilig") {
             ?>
