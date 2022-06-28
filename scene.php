@@ -39,7 +39,7 @@ require 'tailwind.php'
     <?php
     session_start();
     if (!isset($_POST['optie1'])) {
-    ?>
+        ?>
         <form method="post" class="flex justify-center">
             <label for="optie1">
                 <h3 class="mb-10 text-xl flex justify-center">Je krijgt ruzie met
@@ -59,7 +59,7 @@ require 'tailwind.php'
         </form>
         <br><br><br>
         <div class="flex justify-center underline">
-            <form method="post" action="index.html">
+            <form method="post" action="index.php">
                 <input type="submit" class="border-solid border-2 border-black px-2 transition ease-in-out delay-50 bg-white hover:-translate-y-1 hover:scale-110 hover:bg-yellow-500 duration-250" value="Terug gaan">
             </form>
         </div>
@@ -68,7 +68,7 @@ require 'tailwind.php'
     if (isset($_POST['optie1'])) {
         $_SESSION['optie1'] = $_POST['optie1'];
         if ($_SESSION['optie1'] == "veilig") {
-        ?>
+            ?>
             <div class="text-xl flex justify-center">
                 <h3>Goed Gedaan. Je koos er voor om met de man te praten.
                     Hij heeft naar je geluisterd.</h3>
@@ -78,9 +78,9 @@ require 'tailwind.php'
                     <input type="submit" class="border-solid border-2 border-black px-2 transition ease-in-out delay-50 bg-white hover:-translate-y-1 hover:scale-110 hover:bg-green-500 duration-250" value="Volgende Scenario" id="btnSubmit2">
                 </form>
             </div>
-        <?php
+            <?php
         } else if ($_SESSION['optie1'] == "onveilig") {
-        ?>
+            ?>
             <div class="flex justify-center">
                 <h3 class="text-2xl">Dit gaat heel fout. De man heeft zijn mes
                     getrokken. Hij heeft je neer gestoken. :(
@@ -96,10 +96,10 @@ require 'tailwind.php'
                     <input type="submit" class="border-solid border-2 border-black px-2 transition ease-in-out delay-50 bg-white hover:-translate-y-1 hover:scale-110 hover:bg-yellow-500 duration-250" value="Opnieuw">
                 </form>
             </div>
-        <?php
+            <?php
         }
         ?>
-    <?php
+        <?php
     }
     ?>
     <br><br><br>

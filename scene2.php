@@ -98,16 +98,25 @@ require 'tailwind.php';
         $_SESSION['optie2'] = $_POST['optie2'];
         if ($_SESSION['optie2'] == "veilig02") {
             ?>
-        <div class="flex justify-center">
+            <div class="flex justify-center">
                 <h1 class="text-2xl">Scenario 2 Voltooid</h1>
                 <br><br>
-        </div>
-        <div class="flex justify-center">
-            <h3 class="text-xl">Redirecting in 3...</h3>
-        </div>
+            </div>
+            <div class="flex justify-center">
+                <h3 class="text-xl">Redirecting in 3...</h3>
+            </div>
             <?php
             header("Refresh:3; url=/scene3.php", true, 303);
         } else {
+            ?>
+            <div class="flex justify-center">
+                <h1 class="text-2xl">Scenario 2 Voltooid</h1>
+                <br><br>
+            </div>
+            <div class="flex justify-center">
+                <h3 class="text-xl">Redirecting in 3...</h3>
+            </div>
+            <?php
             header("Refresh:3; url=/scene3.php", true, 303);
         }
     }
