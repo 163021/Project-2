@@ -31,7 +31,7 @@ require 'tailwind.php';
     <div id="Alpha">
         <h2 class="text-1xl text-red-600 mb-5">*ALPHA - WORK IN PROGRESS</h2>
     </div>
-    <div class="flex justify-center">
+    <div class="flex w-screen justify-center">
         <h1 class="underline text-4xl mb-10">Scenario 2</h2>
     </div>
     <?php
@@ -53,7 +53,7 @@ require 'tailwind.php';
             </div>
             <br><br>
             <div class="flex justify-center">
-                <input type="submit" class="border-solid border-2 border-black px-3" value="Volgende" id="btnSubmit1">
+                <input type="submit" class="border-solid border-2 border-black px-2 transition ease-in-out delay-50 bg-white hover:-translate-y-1 hover:scale-110 hover:bg-green-500 duration-250" value="Volgende" id="btnSubmit1">
             </div>
         </form>
 
@@ -68,7 +68,7 @@ require 'tailwind.php';
             </div>
             <div class="flex justify-center mt-10">
                 <form method="POST" action="scene3.php">
-                    <input type="submit" class="border-solid border-2 border-black bg-white hover:bg-green-500" value="Volgende Scenario" id="btnSubmit2">
+                    <input type="submit" class="border-solid border-2 border-black px-2 transition ease-in-out delay-50 bg-white hover:-translate-y-1 hover:scale-110 hover:bg-green-500 duration-250" value="Volgende Scenario" id="btnSubmit2">
                 </form>
             </div>
             <?php
@@ -87,7 +87,7 @@ require 'tailwind.php';
                 </div>
                     <br><br>
                 <div class="flex justify-center">
-                    <input type="submit" class="border-solid border-2 border-black bg-white hover:bg-green-500bg-white hover:bg-green-500 px-2" value="Volgende Scenario" id="btnSubmit3">
+                    <input type="submit" class="border-solid border-2 border-black px-2 transition ease-in-out delay-50 bg-white hover:-translate-y-1 hover:scale-110 hover:bg-green-500 duration-250" value="Volgende Scenario" id="btnSubmit3">
                 </div>
             </form>
             <?php

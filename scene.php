@@ -23,6 +23,7 @@ require 'tailwind.php'
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="refresh" content="60;scene.php" />
     <title>Scenario1</title>
 
 </head>
@@ -38,12 +39,12 @@ require 'tailwind.php'
     <?php
     session_start();
     if (!isset($_POST['optie1'])) {
-        ?>
+    ?>
         <form method="post" class="flex justify-center">
             <label for="optie1">
-                <h3 class="mb-10 text-xl flex justify-center"><strong>Je krijgt ruzie met
+                <h3 class="mb-10 text-xl flex justify-center">Je krijgt ruzie met
                         een jongeren op straat en hij heeft een mes
-                        op zijn heup en dreigt je er mee te steken.</strong></h3>
+                        op zijn heup en dreigt je er mee te steken.</h3>
                 <div class="flex justify-center">
                     <select id="optie1" class="border-solid border-2 border-black" name="optie1">
                         <option value="veilig">Je probeert de situatie
@@ -53,13 +54,13 @@ require 'tailwind.php'
                     </select>
                 </div>
                 <div class="flex justify-center mt-10">
-                    <input type="submit" class="border-solid border-2 border-black bg-white hover:bg-green-500" value="Selecteren" id="btnSubmit">
+                    <input type="submit" class="border-solid border-2 border-black px-2 transition ease-in-out delay-50 bg-white hover:-translate-y-1 hover:scale-110 hover:bg-green-500 duration-250" value="Selecteren" id="btnSubmit">
                 </div>
         </form>
         <br><br><br>
         <div class="flex justify-center underline">
             <form method="post" action="index.html">
-                <input type="submit" class="border-solid border-2 border-black bg-white hover:bg-yellow-500" value="Terug gaan">
+                <input type="submit" class="border-solid border-2 border-black px-2 transition ease-in-out delay-50 bg-white hover:-translate-y-1 hover:scale-110 hover:bg-yellow-500 duration-250" value="Terug gaan">
             </form>
         </div>
         <?php
@@ -67,29 +68,38 @@ require 'tailwind.php'
     if (isset($_POST['optie1'])) {
         $_SESSION['optie1'] = $_POST['optie1'];
         if ($_SESSION['optie1'] == "veilig") {
-            ?>
+        ?>
             <div class="text-xl flex justify-center">
-            <h3>Goed Gedaan. Je koos er voor om met de man te praten.
+                <h3>Goed Gedaan. Je koos er voor om met de man te praten.
                     Hij heeft naar je geluisterd.</h3>
-        </div>
-        <div class="mt-4 flex justify-center">
-            <form method="post" action="scene2.php">
-                <input type="submit" class="border-solid border-2 border-black bg-white hover:bg-green-500bg-white hover:bg-green-500" value="Volgende Scenario" id="btnSubmit2">
-            </form>
             </div>
-            <?php
+            <div class="mt-4 flex justify-center">
+                <form method="post" action="scene2.php">
+                    <input type="submit" class="border-solid border-2 border-black px-2 transition ease-in-out delay-50 bg-white hover:-translate-y-1 hover:scale-110 hover:bg-green-500 duration-250" value="Volgende Scenario" id="btnSubmit2">
+                </form>
+            </div>
+        <?php
         } else if ($_SESSION['optie1'] == "onveilig") {
-            ?>
-            <h3><strong>Dit gaat heel fout. De man heeft zijn mes
-                    getrokken. Hij heeft je neer gestoken. :(</strong></h3>
-            <h3><strong>Probeer opnieuw.</strong></h3>
-            <form method="post" action="#">
-                <input type="submit" value="Opnieuw">
-            </form>
-            <?php
+        ?>
+            <div class="flex justify-center">
+                <h3 class="text-2xl">Dit gaat heel fout. De man heeft zijn mes
+                    getrokken. Hij heeft je neer gestoken. :(
+                </h3>
+            </div>
+            <br><br>
+            <div class="flex justify-center">
+                <h3 class="text-xl">Probeer opnieuw.</h3>
+            </div>
+            <br><br>
+            <div class="flex justify-center">
+                <form method="post" action="#">
+                    <input type="submit" class="border-solid border-2 border-black px-2 transition ease-in-out delay-50 bg-white hover:-translate-y-1 hover:scale-110 hover:bg-yellow-500 duration-250" value="Opnieuw">
+                </form>
+            </div>
+        <?php
         }
         ?>
-        <?php
+    <?php
     }
     ?>
     <br><br><br>
