@@ -31,7 +31,7 @@ require 'tailwind.php';
     <h2 class="text-2xl mb-3 flex justify-center">Klik op de knop om de test te starten.</h2>
     <div class="flex justify-center mt-2">
         <form action="scene.php" method="post">
-            <input type="submit" class="border-solid border-2 border-black bg-white hover:bg-green-500bg-white hover:bg-green-500" value="Start de test">
+            <input type="submit" class="border-solid border-2 border-black bg-white hover:bg-green-500 bg-white hover:bg-green-500" value="Start de test">
         </form>
     </div>
 </body>
