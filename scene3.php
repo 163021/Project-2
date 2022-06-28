@@ -34,7 +34,7 @@ require 'tailwind.php';
     <?php
     session_start();
     if (!isset($_POST['optie1']) && !isset($_POST['optie2']) && !isset($_POST['optie3'])) {
-    ?>
+        ?>
         <form method="POST">
             <label for=""></label>
             <br><br>
@@ -49,7 +49,7 @@ require 'tailwind.php';
             <input type="submit" class="border-solid border-2 border-black px-2 transition ease-in-out delay-50 bg-white hover:-translate-y-1 hover:scale-110 hover:bg-green-500 duration-250" value="Volgende">
             </div>
         </form>
-    <?php
+        <?php
     }
     ?>
 
