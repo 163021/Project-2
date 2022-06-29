@@ -24,12 +24,13 @@ require 'tailwind.php';
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js"></script>
     <title>Scenario2</title>
 </head>
 
 <body>
     <div id="Alpha">
-        <h2 class="text-1xl text-red-600 mb-5">*ALPHA - WORK IN PROGRESS</h2>
+        <h2 class="text-1xl text-red-600 mb-5 mt-3 ml-4">*ALPHA - WIP</h2>
     </div>
     <div class="flex w-screen justify-center">
         <h1 class="underline text-4xl mb-10">Scenario 2</h2>
@@ -46,10 +47,10 @@ require 'tailwind.php';
             </div>
             <br><br>
             <div class="flex justify-center">
-                    <select id="optie1" class="border-solid border-2 border-black w-96" name="optie1">
-                        <option value="veilig01">Je reageert rustig met "Ik sta hier te chillen, zou je mij met rust willen laten." en draait je na de zin om zodat je je gesprek kan vervolgen met je vrienden.</option>
-                        <option value="onveilig01">Je reageert geiriteerd met "tf, hou je bek eens. Ik sta hier te chillen K** flikker."</option>
-                    </select>
+                <select id="optie1" class="border-solid border-2 border-black w-96" name="optie1">
+                    <option value="veilig01">Je reageert rustig met "Ik sta hier te chillen, zou je mij met rust willen laten." en draait je na de zin om zodat je je gesprek kan vervolgen met je vrienden.</option>
+                    <option value="onveilig01">Je reageert geiriteerd met "tf, hou je bek eens. Ik sta hier te chillen K** flikker."</option>
+                </select>
             </div>
             <br><br>
             <div class="flex justify-center">
@@ -66,18 +67,22 @@ require 'tailwind.php';
             <div class="flex justify-center text-xl">
                 <h3>De oud klasgenoot die denkt even en zegt dan: "Oh, negeer mij maar, sukkel" draait om en loopt weg.</h3>
             </div>
-            <div class="flex justify-center mt-10">
-                <form method="POST" action="scene3.php">
-                    <input type="submit" class="border-solid border-2 border-black px-2 transition ease-in-out delay-50 bg-white hover:-translate-y-1 hover:scale-110 hover:bg-green-500 duration-250" value="Volgende Scenario" id="btnSubmit2">
-                </form>
+            <br><br>
+            <div class="flex justify-center">
+                <h3 class="text-2xl">Scenario 2 Voltooid</h1>
+            </div>
+            <br><br>
+            <div class="flex justify-center">
+                <h4 class="text-xl">Redirecting in <span id="countdowntimer">5</span>...</h4>
             </div>
             <?php
+            header("Refresh:5; url=/scene3.php", true, 303);
         } else {
             ?>
             <form method="POST">
                 <div class="flex justify-center">
-                <label for="optie2" class="text-xl mb-2">De oud klasgenoot scheld je uit en geeft je een flinke duw, jij schrikt en valt bijna achterover. Je herstelt net optijd je evenwicht en kijkt hem aan.</label>
-                <br><br>
+                    <label for="optie2" class="text-xl mb-2">De oud klasgenoot scheld je uit en geeft je een flinke duw, jij schrikt en valt bijna achterover. Je herstelt net optijd je evenwicht en kijkt hem aan.</label>
+                    <br><br>
                 </div>
                 <div class="flex justify-center mt-2">
                     <select id="optie2" class="border-solid border-2 border-black w-96" name="optie2">
@@ -85,7 +90,7 @@ require 'tailwind.php';
                         <option value="onveilig02">Je geeft hem een flinke duw en geef hem een rake slag in zijn gezicht</option>
                     </select>
                 </div>
-                    <br><br>
+                <br><br>
                 <div class="flex justify-center">
                     <input type="submit" class="border-solid border-2 border-black px-2 transition ease-in-out delay-50 bg-white hover:-translate-y-1 hover:scale-110 hover:bg-green-500 duration-250" value="Volgende Scenario" id="btnSubmit3">
                 </div>
@@ -103,24 +108,33 @@ require 'tailwind.php';
                 <br><br>
             </div>
             <div class="flex justify-center">
-                <h3 class="text-xl">Redirecting in 3...</h3>
+                <h4 class="text-xl">Redirecting in <span id="countdowntimer">5</span>...</h4>
             </div>
             <?php
-            header("Refresh:3; url=/scene3.php", true, 303);
+            header("Refresh:5; url=/scene3.php", true, 303);
         } else {
             ?>
+
+            <br><br>
             <div class="flex justify-center">
-                <h1 class="text-2xl">Scenario 2 Voltooid</h1>
-                <br><br>
+                <h3 class="text-xl">Probeer opnieuw.</h3>
             </div>
+            <br><br>
             <div class="flex justify-center">
-                <h3 class="text-xl">Redirecting in 3...</h3>
+                <form method="post" action="#">
+                    <input type="submit" class="border-solid border-2 border-black px-2 transition ease-in-out delay-50 bg-white hover:-translate-y-1 hover:scale-110 hover:bg-yellow-500 duration-250" value="Opnieuw">
+                </form>
             </div>
             <?php
-            header("Refresh:3; url=/scene3.php", true, 303);
         }
     }
     ?>
+
+    <div class="flex justify-center underline mt-32">
+        <form method="post" action="index.php">
+            <input type="submit" class="border-solid border-2 border-black px-2 transition ease-in-out delay-50 bg-white hover:-translate-y-1 hover:scale-110 hover:bg-yellow-500 duration-250" value="Terug gaan">
+        </form>
+    </div>
 </body>
 
 </html>
