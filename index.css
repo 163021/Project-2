@@ -16,9 +16,10 @@
   }
   
   #nav li a {
+    display: flex;
     display: block;
     text-decoration: none;
-    width: 200px;
+    width: 100px;
     /* this is the width of the menu items */
     line-height: 35px;
     /* this is the hieght of the menu items */
