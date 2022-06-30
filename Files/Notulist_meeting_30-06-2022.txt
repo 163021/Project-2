@@ -1,0 +1,32 @@
+Notities
+
+
+Gedaan vorige week:
+Casper: Aan de website gewerkt, styling moet allleen nog
+Marai: Casper geholpen
+Martijn: De notities en scenario's gemaakt en verbeterd.
+Jurre: Aan de VR versie gewerkt.
+
+Feedback:
+
+Zorg dat de scenario's concreet welke handelingen je doet zijn. De scenario's verbeteren in de zin van mindfuck, Voorbeeld:
+
+Keuze 1 is vechten maar eerst mes uit zn hand slaan
+keuze 2 is vechten maar met mes
+keuze 3 is zegt tegen hem dat je niks ermee te maken wilt hebben en loopt weg.
+
+aan het einde laten zien welke het beste was en welke op de goede weg was en welke heeft gezorgd dat het ge escaleerd is.
+
+
+nieuwe doelen:
+Casper: Keuzes verbeteren en meer F plus elementen toevoegen
+Marai: Helpen ^^
+Martijn: Helpen met stylen 
+Jurre: VR button script uitbreiden.
+
+Rondvraag:
+Geen vragen/opmerkingen.
+
+
+Einde meeting:
+09:39 klaar.
