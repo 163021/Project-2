@@ -73,11 +73,11 @@ require 'tailwind.php';
         } else {
             ?>
         <form method="POST">
-            <div class="flex justify-center">
-            <label for="optie2" class="text-xl mb-2">De jongen is nu boos op je en het lijkt erop alsof hij wil gaan vechten.</label>
+            <div class="flex">
+                <label for="optie2" class="text-xl mb-2 justify-center">De jongen is nu boos op je en het lijkt erop alsof hij wil gaan vechten.</label>
             <br><br>
             </div>
-            <div class="flex justify-center mt-2">
+            <div class="flex justify-center mt-2 w-screen">
                 <select id="optie2" class="border-solid border-2 border-black w-96" name="optie2">
                     <option value="veilig02">Je neemt afstand en wacht totdat hij iets doet.</option>
                     <option value="onveilig02">Je scheldt hem uit en geeft hem een klap.</option>
@@ -85,7 +85,7 @@ require 'tailwind.php';
             </div>
                 <br><br>
             <div class="flex justify-center">
-                <input type="submit" class="border-solid border-2 border-black px-2 transition ease-in-out delay-50 bg-white hover:-translate-y-1 hover:scale-110 hover:bg-green-500 duration-250" value="Volgende Scenario" id="btnSubmit3">
+                <input type="submit" class="border-solid border-2 border-black px-2 transition ease-in-out delay-50 bg-white hover:-translate-y-1 hover:scale-110 hover:bg-green-500 duration-250" value="Volgende" id="btnSubmit3">
             </div>
         </form>
             <?php
