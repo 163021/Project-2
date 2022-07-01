@@ -53,6 +53,7 @@
         <div class="container-body">
             <div class="center-content">
                 <div>
+                    <h4>FundamentPlus</h4>
                     <h1>Welkom, dit zijn weerbaarheidsvragen!</h1>
                 </div>
                 <div class="transparent">
