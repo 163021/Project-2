@@ -51,6 +51,8 @@
                             te deëscaleren</option>
                         <option value="onveilig">Je wilt het gevecht aan en
                             geeft hem een kaakstoot</option>
+                        <option value="veilig2"></option>
+                        <option value="onveilig3"></option>
                     </select>
                 </div>
                 <div class="">
@@ -70,7 +72,7 @@
             </div>
             <br><br>
             <div class="">
-                <h3 class="">Scenario 2 Voltooid</h1>
+                <h3 class="">Scenario 1 Voltooid</h1>
             </div>
             <br><br>
             <div class="">
@@ -80,8 +82,8 @@
             header("Refresh:5; url=/Php/scene2.php", true, 303);
         } else if ($_SESSION['optie1'] == "onveilig") {
             ?>
-            <div class="">
-                <h3 class="">Dit gaat heel fout. De man heeft zijn mes
+            <div>
+                <h3>Dit gaat heel fout. De man heeft zijn mes
                     getrokken. Hij heeft je neer gestoken. :(
                 </h3>
             </div>
@@ -94,6 +96,20 @@
                 <form method="post" action="#">
                     <input type="submit" class="" value="Opnieuw">
                 </form>
+            </div>
+            <?php
+        } else if ($_SESSION['optie1'] == "veilig2") {
+            ?>
+            <div>
+                <h2>Jullie proberen het uit te praten maar de man is nog niet helemaal </h3>
+            </div>
+            <br><br>
+            <div>
+                <h3>Scenario 1 Voltooid</h1>
+            </div>
+            <br><br>
+            <div>
+                <h4>Redirecting in <span id="countdowntimer">5</span>...</h4>
             </div>
             <?php
         }
