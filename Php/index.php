@@ -52,19 +52,18 @@
         </div>
         <div class="container-body">
             <div class="center-content">
-                <div>
-                    <h4>FundamentPlus</h4>
-                    <h1>Welkom, dit zijn weerbaarheidsvragen!</h1>
-                </div>
+                <h4>FundamentPlus</h4>
+                <h1>Welkom, dit zijn weerbaarheidsvragen!</h1>
                 <div class="transparent">
                     <img src="/Img/FundamentPlusTransparant.png">
                 </div>
-            </div>
-            <h2>U krijgt zodadelijk 3 scenario's te zien.</h2>
-            <h4>Klik op de knop om de test te starten.</h4>
-            <div class="test-start">
-                <form action="/Php/scene.php" method="post">
-                    <input type="submit" class="" value="Start de test">
+                </div>
+        </div>
+        <h2>U krijgt zodadelijk 3 scenario's te zien.</h2>
+        <h4>Klik op de knop om de test te starten.</h4>
+        <div class="test-start">
+            <form action="/Php/scene.php" method="post">
+                <input type="submit" class="" value="Start de test">
                 </form>
             </div>
             <div>
