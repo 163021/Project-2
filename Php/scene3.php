@@ -103,7 +103,7 @@
                 <h4 class="">Redirecting in <span id="countdowntimer">5</span>...</h4>
             </div>
             <?php
-            header("Refresh:5; url=/End-Footer.php", true, 303);
+            header("Refresh:5; url=/Php/End-Footer.php", true, 303);
         } else {
             ?>
             <div class="">

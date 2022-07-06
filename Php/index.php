@@ -37,14 +37,7 @@
                 <nav>
                     <ul>
                         <li><a href="https://fundamentplus.nl/over-ons/">Over Ons</a></li>
-                        <li><a href="#">Scenario's</a>
-                            <ul class="dropdown">
-                                <li><a href="/Php/scene.php">Scenario 1</a></li>
-                                <li><a href="/Php/scene2.php">Scenario 2</a></li>
-                                <li><a href="/Php/scene3.php">Scenario 3</a>
-                                </li>
-                            </ul>
-                        </li>
+                        <li><a href="scenarios.php">Scenario's</a></li>
                         <li><a href="https://fundamentplus.nl/contact/">Contact</a></li>
                     </ul>
                 </nav>
