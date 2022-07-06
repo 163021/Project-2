@@ -49,13 +49,15 @@
     <label for="refuse">refuse</label>
     <br>
     <br>
-    <input type="submit" value="continue">
+    <input type="submit" value="continue" name="continue">
 </form>
 
 <?php
 
-if (isset($_POST['logout'])) {
-    header('Location: logout.php');
+if ($_POST['disclaimer'] == 'accept') {
+    if(isset($_POST['continue'])) {
+        header("Location: Main-Contact.php");
+    };
 }
 
 ?>

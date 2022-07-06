@@ -67,7 +67,7 @@
             </table>
         </div>
     </div>
-    <a href="disclaimer.php">DISCLAIMER</a>
+    <a href="index.php">Terug naar beginpagina</a>
 </body>
 
 </html>
