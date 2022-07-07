@@ -40,14 +40,13 @@
   flex-direction: row;
   align-items: center;
 
-  margin-left: 100px;
+  margin-left: 50px;
 }
 
 #container .container-navbar .navbar nav ul {
   display: flex;
   flex-direction: row;
   align-items: center;
-
 }
 
 #container .container-navbar .navbar nav ul a {
@@ -67,3 +66,16 @@
 /* --------------------------------------------------------- */
 
 
+#container .container-body .center-content {
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+
+}
+
+
+#container .container-body .center-content .transparent img {
+  height: 230px;
+  width: 320px;
+}

@@ -38,7 +38,7 @@
                     <ul>
                         <li><a href="https://fundamentplus.nl/over-ons/">Over Ons</a></li>
                         <li><a href="scenarios.php">Scenario's</a></li>
-                        <li><a href="https://fundamentplus.nl/contact/">Contact</a></li>
+                        <li><a href="https://fundamentplus.nl/contact/">Contact</a></li><i class="nf-fa-windows"></i>
                     </ul>
                 </nav>
             </div>

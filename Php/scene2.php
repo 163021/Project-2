@@ -101,6 +101,7 @@
         <?php
         }
     } else if (isset($_POST['optie2'])) {
+        $_SESSION['optie2'] = $_POST['optie2'];
         if ($_SESSION['optie2'] == "onveilig02") {
         ?>
             <div class="antwoord1">
@@ -115,8 +116,23 @@
                     </form>
                 </div>
             </div>
-    <?php
+        <?php
         }
+    } else if (isset($_POST['optie2'])) {
+        $_SESSION['optie2'] = $_POST['optie2'];
+        ?>
+        <div class="antwoord2">
+            <h2></h2>
+            <br><br>
+            <h3></h3>
+            <br><br>
+            <div>
+                <form method="post">
+                    <input type="submit" value="">
+                </form>
+            </div>
+        </div>
+    <?php
     }
     ?>
 
